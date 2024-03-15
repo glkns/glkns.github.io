@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap');
+
+body {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Flex", sans-serif;
+  font-stretch: 150%;
+  padding: 200px
+}
+
+h1 {
+  font-stretch: 1000%;
+  font-weight: 100;
+}
+
+.link {
+  background-color: #EEE;
+  padding: 10px;
+  max-width: 500px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+  font-stretch: 50%;
+  transition: all 0.5s ease-in-out;
+
+  img {
+    fill: #111;
+    vertical-align: text-top;
+    padding: 3px;
+    width: 24px;
+  }
+}
+
+.link:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 1000;
+  font-stretch: 400%;
+  transition: 0.2s ease-in-out;
+}
+
+.link:hover:after {
+  transition: 0.3s ease-in-out;
+  color: #111;
+  font-weight: 700;
+}
